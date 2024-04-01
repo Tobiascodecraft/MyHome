@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Real Estate</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/cce6747441.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="./Styles/results.css">
+    <link rel="stylesheet" href="./Styles/index.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-black fixed-top">
+        <div class="container-fluid navbar-header-text">
+            <a href="index.html" id="navbar-logo"><span class="red-span"><i class="fa-solid fa-house"></i></span>  MyHome</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <form class="d-flex ms-auto me-5">
+                    <a class="offer-btn" href="">post property <i class="fa-solid fa-paper-plane"></i></a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Your Search</h1>
+
+    <section id="header-section">
+        <div class="white-container">
+            <div class="column-container">
+                <a href="index.html" class="search-results hover-effect">Go back <i class="fa-solid fa-arrow-right"></i></a>
+                <p></p>
+                <p class="search-results">Selected Location: <span class="output-span">Kassel</span></p>
+                <p></p>
+                <p class="search-results">Minimum budget: <span class="output-span">1000 $</span></p>
+            </div>
+
+            <div class="column-container">
+                <p class="search-results">Selected Property Type: <b><span id="type-output" class="output-span">shop</span></b></p>
+                <p></p>
+                <p class="search-results">Maximum budget: <span class="output-span">100 000 $</span></p>
+                <p></p>
+                <p class="search-results">Selected BHK count: <span class="output-span">2 BHK</span></p>
+                <p class="test">Test</p>
+            </div>
+        </div>
+    </section>
+   
+    <h1>Your Results</h1>
+    <section id="listing-section">
+        <br>
+        <div class="row-container">
+            <div class="listing-card">
+                <div class="start-container">
+                    <span class="span-cirlce">j</span>
+                    <div class="column-container">
+                        <p class="name">john deo</p>
+                        <p class="date">10-11-2022</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img class="property-img" src="./Images/house-img-1.webp" alt="">
+                    <p class="top-left hover-red"><i class="fa-solid fa-image"></i> 4</p>
+                    <p class="top-right hover-red"><i class="fa-regular fa-heart"></i></p>
+                    <p class="bottom-left red-bg-txt">house</p>
+                </div>
+                <p class="property-name">Modern Flats And Appartments</p>
+                <p class="location-txt"><span class="red-span icon-size"><i class="fa-solid fa-location-dot"></i> </span> Frankfurt, Hessen, Deutschland</p>
+                <div class="grey-container">
+                    <p class="info-txt"><span class="red"><i class="fa-solid fa-bed"></i></span> 4</p>
+                    <p class="info-txt"><span class="red"><i class="fa-solid fa-bath"></i></span> 2</p>
+                    <p class="info-txt"><span class="red"><i class="fa-solid fa-arrows-up-down-left-right"></i></span> 750sqft</p>
+                </div>
+                <button class="view-btn">View Property</button>
+            </div>
+            <div class="listing-card">
+                <div class="start-container">
+                    <span class="span-cirlce">u</span>
+                    <div class="column-container">
+                        <p class="name">urs kale</p>
+                        <p class="date">04-08-2024</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img class="property-img" src="./Images/house-img-2.webp" alt="">
+                    <p class="top-left hover-red"><i class="fa-solid fa-image"></i> 4</p>
+                    <p class="top-right hover-red"><i class="fa-regular fa-heart"></i></p>
+                    <p class="bottom-left red-bg-txt">flat</p>
+                </div>
+                <p class="property-name">Modern Flats And Appartments</p>
+                <p class="location-txt"><span class="red-span icon-size"><i class="fa-solid fa-location-dot"></i> </span> Kassel, Hessen, Deutschland</p>
+                <div class="grey-container">
+                    <p class="info-txt"><span class="red"><i class="fa-solid fa-bed"></i></span> 3</p>
+                    <p class="info-txt"><span class="red"><i class="fa-solid fa-bath"></i></span> 1</p>
+                    <p class="info-txt"><span class="red"><i class="fa-solid fa-arrows-up-down-left-right"></i></span> 550sqft</p>
+                </div>
+                <button class="view-btn">View Property</button>
+            </div>
+            <div class="listing-card">
+                <div class="start-container">
+                    <span class="span-cirlce">t</span>
+                    <div class="column-container">
+                        <p class="name">tobias gemar</p>
+                        <p class="date">22-12-2019</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img class="property-img" src="./Images/house-img-3.jpg" alt="">
+                    <p class="top-left hover-red"><i class="fa-solid fa-image"></i> 2</p>
+                    <p class="top-right hover-red"><i class="fa-regular fa-heart"></i></p>
+                    <p class="bottom-left red-bg-txt">rental flat</p>
+                </div>
+                <p class="property-name">Modern Flats And Appartments</p>
+                <p class="location-txt"><span class="red-span icon-size"><i class="fa-solid fa-location-dot"></i> </span> Montabauer, Sachsen, Deutschland</p>
+                <div class="grey-container">
+                    <p class="info-txt"><span class="red"><i class="fa-solid fa-bed"></i></span> 3</p>
+                    <p class="info-txt"><span class="red"><i class="fa-solid fa-bath"></i></span> 2</p>
+                    <p class="info-txt"><span class="red"><i class="fa-solid fa-arrows-up-down-left-right"></i></span> 430sqft</p>
+                </div>
+                <button class="view-btn">View Property</button>
+            </div>
+        </div>
+        <div class="center-container">
+            <button class="view-btn">View All</button>
+        </div>
+        <br>
+      </section>            
+    </div>
+    
+      <section id="footer-section">
+        <div class="footer-container-column">
+            <p class="footer-txt"><span class="red"><i class="fa-solid fa-phone"></i></span> 123456789</p>
+            <p class="footer-txt"><span class="red"><i class="fa-solid fa-phone"></i></span> 111222333</p>
+            <p class="footer-txt"><span class="red"><i class="fa-solid fa-envelope"></i></span> myhome@gmail.com</p>
+            <p class="footer-txt"><span class="red"><i class="fa-solid fa-location-dot"></i></span> new york, America - 400104</p>
+        </div>
+        <!--
+        <div class="footer-container-column">
+            <p class="footer-txt centered">home</p>
+            <p class="footer-txt centered">about</p>
+            <p class="footer-txt centered">contact</p>
+            <p class="footer-txt centered">all listings</p>
+        </div>
+        -->
+        <div class="footer-container-column">
+            <p class="footer-txt">facebook <span class="red"><i class="fa-brands fa-facebook"></i></span> </p>
+            <p class="footer-txt">twitter <span class="red"><i class="fa-brands fa-twitter"></i></span> </p>
+            <p class="footer-txt">linkedin <span class="red"><i class="fa-brands fa-linkedin"></i></span> </p>
+            <p class="footer-txt">instagram <span class="red"><i class="fa-brands fa-instagram"></i></span> </p>
+        </div>
+      </section>
+        <div class="footer-end">
+            <p class="end-txt">© copyright @ 2024 by <span class="red">Tobi.dev</span> | all rights reserved !</p>
+        </div>
+
+
+        <script src="Scripts/main.js"></script>
+    </body>
+</html>

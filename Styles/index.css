@@ -1,0 +1,576 @@
+/*Navbar*/
+#navbar-logo{
+   margin-top: 0%;
+   margin-left: 1%;
+   font-size: 25px;
+   color: white;
+   text-decoration: none;
+}
+
+.red-span{
+    color: red;
+    font-size: 25px;
+}
+
+.move-right{
+    margin-right: 50px;
+}
+
+.nav-link{
+    color: black;
+
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: rgb(255, 208, 0);
+}
+
+.fa-bars{
+    color: black;
+}
+
+.offer-btn{
+    border: 2px solid black;
+    padding: 8px;
+    width: 220px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 450;
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+    text-decoration: none;
+}
+
+.fa-paper-plane{
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.offer-btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.icon-size{
+    font-size: 21px;
+}
+
+.grey-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    background-color: rgb(241, 241, 241);
+}
+
+.red{
+    color: rgb(231, 4, 4);
+}
+
+.info-txt{
+    font-weight: 500;
+    font-size: 19px;
+}
+
+
+/*Header Section*/
+#header-section{
+    padding: 0%;
+    margin: 0%;
+}
+
+#home-img{
+    width: 100%;
+}
+
+
+/*Service Section*/
+#service-section{
+    background-color: rgb(243, 240, 240);
+    padding: 3%;
+}
+
+h3{
+    text-align: center;
+    font-size: 36px;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.select-menu{
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 450;
+    width: 100px;
+}
+
+.center-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    padding: 2.5%;
+    width: 25%;
+    height: 300px;
+    gap: 3%;
+    -webkit-box-shadow: -1px 1px 12px 1px rgba(0,0,0,0.67); 
+    box-shadow: -1px 1px 12px 1px rgba(0,0,0,0.67);
+}
+
+.header-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.span-red{
+    color: red;
+}
+
+.house-icon{
+    width: 90px;
+}
+
+.card-header{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card-txt{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 450;
+}
+
+
+/*Listing Section*/
+#listing-section{
+    background-color: rgb(243, 240, 240);
+}
+
+.ds-none{
+    display: none;
+}
+
+.listing-card{
+    background-color: white;
+    -webkit-box-shadow: -1px 1px 12px 1px rgba(0,0,0,0.67); 
+    box-shadow: -1px 1px 12px 1px rgba(0,0,0,0.67);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    width: 30%;
+}
+
+.start-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.center-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: -15px;
+}
+
+
+
+.column-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: -5px;
+}
+
+.span-cirlce{
+    border-radius: 50px;
+    background-color: lightgrey;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    font-weight: 550;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.image-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.property-img{
+    width: 98%;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: 2px;
+    left: 16px;
+}
+
+.date{
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+}
+
+.property-name{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.red-bg-txt{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: rgb(219, 3, 3);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.location-txt{
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    font-weight: 500;
+    text-align: center;
+}
+
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.hover-red{
+    font-size: 18px;
+    transition: 0.1s;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.hover-red:hover{
+    background-color: red;
+    padding-left: 2%;
+    padding-right: 2%;
+    cursor: pointer;
+}
+
+.invalid-message-output{
+    color: red;
+    font-weight: 550;
+    font-size: 22px;
+}
+
+.view-btn{
+    margin-top: 3%;
+    height: 45px;
+    width: 220px;
+    border: none;
+    background-color: rgb(219, 3, 3);
+    color: white;
+    font-size: 24px;
+    font-weight: 450;
+    transition: 0.2s;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.view-btn:hover{
+    background-color: rgb(12, 12, 12);
+}
+
+
+/*Footer Section*/
+#footer-section{
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-container-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+
+.footer-txt{
+    color: white;
+    font-size: 21px;
+    transition: 0.1s;
+}
+
+.footer-txt:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.centered{
+    text-align: center;
+}
+
+.footer-end{
+    border-top: 1px solid grey;
+    background-color: rgb(43, 43, 43);
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.end-txt{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding: 2%;
+}
+
+.white-ct-hd{
+    color: black;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.input-info{
+    color: rgb(128, 128, 128);
+    font-size: 18px;
+    text-align: left;
+}
+
+.input-group{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    border-radius: 0px;
+    color: rgb(128, 128, 128);
+}
+
+.dropdown-toggle{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    border-radius: 0px;
+    color: rgb(128, 128, 128);
+}
+
+.dropdown-toggle:hover{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    border-radius: 0px;
+    color: rgb(128, 128, 128);
+}
+
+.js-btn{
+    border: 1px solid red;
+    padding: 8px;
+    width: 90%;
+
+    font-size: 21px;
+    font-weight: 450;
+    color: white;
+    background-color: red;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.js-btn:hover{
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+}
+
+
+/*Media Queries*/
+
+
+/*I Pad Pro 1030px*/
+@media (max-width:1030px) {    
+    .house-icon{
+        width: 70px;
+    }
+
+    .card-header{
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .card-txt{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 450;
+    }
+}
+
+.test{
+    color: black;
+}
+
+/*I Pad Air 830px*/
+@media (max-width:830px) {
+    .row-container{
+        gap: 3%;
+    }
+
+    .center-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 80%;
+        margin-bottom: 3%;
+    }
+
+    #home-img{
+        height: 600px;
+    }
+
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        padding: 2%;
+        margin-top: 3%;
+    }
+
+}
+
+
+/*Phone 500px*/
+@media (max-width:500px) {
+    .row-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .listing-card{
+        width: 80%;
+        margin-top: 5%;
+        padding: 2%;
+    }
+
+    #home-img{
+        width: 100%;
+        height: 500px;
+    }
+
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        height: auto;
+        width: 320px;
+        padding: 2%;
+        margin-top: 35%;
+    }
+
+    #header-section{
+        margin-top: 10%;
+        margin-bottom: 70%;
+    }
+
+    body{
+        background-color: rgb(241, 241, 241);
+    }
+
+    .house-icon{
+        width: 90px;
+    }
+
+    .card-header{
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .card-txt{
+        text-align: center;
+        font-size: 17px;
+        font-weight: 450;
+    }
+
+    #footer-section{
+        background-color: rgb(43, 43, 43);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .footer-txt{
+        text-align: center;
+    }
+
+    .end-txt{
+        font-size: 22px;
+    }
+}
+
